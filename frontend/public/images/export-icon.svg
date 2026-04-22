@@ -1,0 +1,10 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Upload/Export Icon -->
+  <g transform="translate(100, 100)">
+    <!-- Arrow up -->
+    <path d="M 0 -50 L -20 -20 L -8 -20 L -8 20 L 8 20 L 8 -20 L 20 -20 Z" fill="#ff6600" stroke="#ff6600" stroke-width="2" stroke-linejoin="round"/>
+    
+    <!-- Box/Container -->
+    <rect x="-45" y="20" width="90" height="50" rx="10" fill="none" stroke="#ff6600" stroke-width="6"/>
+  </g>
+</svg>
