@@ -138,6 +138,6 @@ If I had more time, I would:
 
 ---
 
-## Author
+## Author of the project
 
 Sewmini Jayakody
