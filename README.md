@@ -50,7 +50,7 @@ bcrypt for password hashing
 3. Create a .env file in the backend folder:
 
 PORT=5000
-MONGODB_URI=your_mongodb_connection_string
+MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 CORS_ORIGIN=https://bug-tracker-frontend-coral.vercel.app
 
