@@ -25,6 +25,7 @@ Users can:
 ### Frontend
 
 * React (Vite)
+* Zustand (State Management)
 * CSS
 
 ### Backend
