@@ -49,7 +49,6 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
             </div>
             <div className="header-user-info">
               <span className="header-user-name">{user?.name}</span>
-              <span className="header-user-email">{user?.email}</span>
             </div>
             <Button variant="secondary" size="sm" onClick={logout}>
               Logout
