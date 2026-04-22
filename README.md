@@ -4,43 +4,43 @@ This is a simple Issue Tracker web application built as part of a technical assi
 
 ---
 
-##  Features
+## Features
 
 Users can:
 
-* Register and log in securely
-* Create new issues with title, description, priority, and severity
-* View all issues in a dashboard
-* Update issue details and change status
-* Delete issues
-* Search issues by title
-* Filter issues by status and priority
-* View issue counts by status (Open, In Progress, Resolved)
-* Export issues as CSV or JSON
+- Register and log in securely
+- Create new issues with title, description, priority, and severity
+- View all issues in a dashboard
+- Update issue details and change status
+- Delete issues
+- Search issues by title
+- Filter issues by status and priority
+- View issue counts by status (Open, In Progress, Resolved)
+- Export issues as CSV or JSON
 
 ---
 
-##  Tech Stack
+## Tech Stack
 
 ### Frontend
 
-* React (Vite)
-* Zustand (State Management)
-* CSS
+- React (Vite)
+- Zustand (State Management)
+- CSS
 
 ### Backend
 
-* Node.js
-* Express.js
+- Node.js
+- Express.js
 
 ### Database
 
-* MongoDB Atlas
+- MongoDB Atlas
 
 ### Other
 
-* JWT for authentication
-* bcrypt for password hashing
+- JWT for authentication
+- bcrypt for password hashing
 
 ---
 
@@ -95,49 +95,49 @@ VITE_API_URL=https://bug-tracker-cnvv.onrender.com/api
 
 ---
 
-##  App URLs
+## App URLs
 
-* Frontend (Local): http://localhost:5173
-* Backend (Local): http://localhost:5000
-
----
-
-##  Live Demo
-
-* Frontend: https://bug-tracker-frontend-coral.vercel.app/
-* Backend API: https://bug-tracker-cnvv.onrender.com/
+- Frontend (Local): http://localhost:5173
+- Backend (Local): http://localhost:5000
 
 ---
 
-##  Notes
+## Live Demo
 
-* Each user can only access their own issues
-* Passwords are securely hashed before storing
-* JWT is used for authentication
-* Protected API routes require a valid token
+- Frontend: https://bug-tracker-frontend-coral.vercel.app/
+- Backend API: https://bug-tracker-cnvv.onrender.com/
 
 ---
 
-##  Key Focus Areas
+## Notes
 
-* Clean and user-friendly UI
-* Proper implementation of CRUD operations
-* Clear backend structure
-* Secure authentication handling
+- Each user can only access their own issues
+- Passwords are securely hashed before storing
+- JWT is used for authentication
+- Protected API routes require a valid token
 
 ---
 
-##  Future Improvements
+## Key Focus Areas
+
+- Clean and user-friendly UI
+- Proper implementation of CRUD operations
+- Clear backend structure
+- Secure authentication handling
+
+---
+
+## Future Improvements
 
 If I had more time, I would:
 
-* Improve UI design further
-* Add real-time updates
-* Implement user roles (admin/user)
-* Enhance validation and error handling
+- Improve UI design further
+- Add real-time updates
+- Implement user roles (admin/user)
+- Enhance validation and error handling
 
 ---
 
-##  Author
+## Author
 
 Sewmini Jayakody
