@@ -9,13 +9,16 @@ const router = express.Router();
 
 router.use(authMiddleware);           // Protect all issue routes
 
-router.get('/', getIssues);
+// Specific routes must come BEFORE :id parameter routes
 router.get('/counts', getStatusCounts);
+router.get('/export/csv', exportCSV);
+router.get('/export/json', exportJSON);
+
+// Generic routes
+router.get('/', getIssues);
 router.post('/', createIssue);
 router.get('/:id', getIssueById);
 router.put('/:id', updateIssue);
 router.delete('/:id', deleteIssue);
-router.get('/export/csv', exportCSV);
-router.get('/export/json', exportJSON);
 
 module.exports = router;
